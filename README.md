@@ -1,0 +1,2 @@
+# coinflip
+CF plugin
