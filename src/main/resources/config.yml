@@ -1,0 +1,23 @@
+min-bet: 100
+max-bet: 10000000
+tax-percent: 0
+max-open-per-player: 3
+broadcast-min-bet: 10000
+
+messages:
+  prefix: "<gold><bold>Coinflip</bold></gold> <dark_gray>»</dark_gray> "
+  no-permission: "<red>Dazu hast du keine Rechte."
+  invalid-amount: "<red><input> ist kein gültiger Betrag. Beispiele: 500, 2.5k, 1m"
+  amount-out-of-range: "<red>Der Betrag muss zwischen <min> und <max> liegen."
+  no-amount: "<red>Stelle zuerst mit dem Amboss einen Betrag ein."
+  not-enough-money: "<red>Du hast nicht genug Geld (<amount>)."
+  too-many-open: "<red>Du hast bereits <max> offene Coinflips."
+  created: "<green>Coinflip über <yellow><amount></yellow> erstellt."
+  cancelled: "<yellow>Dein Coinflip über <amount> wurde abgebrochen und erstattet."
+  not-available: "<red>Dieser Coinflip ist nicht mehr verfügbar."
+  transaction-failed: "<red>Die Transaktion ist fehlgeschlagen: <error>"
+  won: "<green>Du hast den Coinflip gegen <white><opponent></white> gewonnen! <yellow>+<payout>"
+  lost: "<red>Du hast den Coinflip gegen <white><opponent></white> verloren. <gray>(-<amount>)"
+  broadcast: "<white><winner></white> <gray>hat einen Coinflip über <yellow><amount></yellow> gegen <white><loser></white> gewonnen!"
+  reloaded: "<green>Konfiguration neu geladen."
+  refunded-shutdown: "<yellow>Dein offener Coinflip über <amount> wurde erstattet (Server-Neustart)."

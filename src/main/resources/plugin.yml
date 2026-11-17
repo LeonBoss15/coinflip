@@ -1,0 +1,14 @@
+name: coinflip
+version: '${project.version}'
+main: de.leonfoundU.coinflip.Coinflip
+api-version: '1.21'
+depend: [ Vault ]
+authors: [ LeonfoundU ]
+description: Cf plugin
+permissions:
+  coinflip.use:
+    description: default cf perm
+    default: true
+  coinflip.admin:
+    description: reload config
+    default: op
